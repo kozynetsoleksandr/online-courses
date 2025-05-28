@@ -1,0 +1,38 @@
+.header-nav__inner {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  margin-top: 20px;
+  font-family: inherit;
+  margin-bottom: 200px;
+}
+
+.header-nav__logo {
+  margin-right: 60px;
+}
+
+.header-nav__menu-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 40px;
+  margin-right: 225px;
+}
+
+.header-nav__menu-item {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.header-nav__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__buttons-author {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  padding-left: 36px;
+}

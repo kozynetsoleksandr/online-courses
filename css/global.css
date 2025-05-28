@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+
+  --gray-800: #424551;
+  --white-color: white;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.font-base-bold {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0;
+}
+.header-nav__menu-items {
+  color: var(--gray-800);
+}
