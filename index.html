@@ -25,7 +25,18 @@
         data-hx-get="./partials/home-page/index.header-hero.partial.html"
       ></div>
     </header>
-    <main></main>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/home-page/index.about.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/home-page/index.courses.partial.html"
+      ></section>
+    </main>
     <footer>
       <section
         data-hx-trigger="load"

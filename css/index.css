@@ -5,3 +5,5 @@
 @import "./global.footer.partial.css";
 @import "./global.header-nav.partial.css";
 @import "./partials/index.header-hero.partial.css";
+@import "./partials/index.about.partial.css";
+@import "./partials/index.courses.partial.css";

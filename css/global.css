@@ -56,6 +56,13 @@
   letter-spacing: 0;
 }
 
+.h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
 .header-nav__menu-items {
   color: var(--gray-800);
 }
