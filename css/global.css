@@ -11,8 +11,10 @@
   --gray-800: #424551;
   --gray-900: rgba(30, 33, 44, 1);
   --gray-700: rgba(120, 122, 128, 1);
+  --gray-600: rgba(154, 156, 165, 1);
   --gray-300: rgba(229, 232, 237, 1);
   --white-color: white;
+  --primary-color: rgba(255, 63, 58, 1);
   --text-color-gradient: #f75e05;
   --text-color-danger: rgba(255, 66, 66, 1);
   --badge-success: rgba(3, 206, 164, 1);
@@ -75,6 +77,13 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 1px;
+}
+
+.h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
 }
 
 .lead-bold {

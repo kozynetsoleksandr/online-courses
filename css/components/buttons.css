@@ -76,19 +76,6 @@
   color: var(--white-color);
 }
 
-.badge-success {
-  background: var(--badge-success);
-}
-.badge-warning {
-  background: var(--badge-warning);
-}
-.badge-info {
-  background: var(--badge-info);
-}
-.badge-danger {
-  background: var(--badge-danger);
-}
-
 .btn-solid-regular:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
