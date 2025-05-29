@@ -1,0 +1,69 @@
+.header-hero {
+  background-image: url("../../img/home-page/header-hero-background.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 212px 0 80px 0;
+  height: 1080px;
+}
+
+.header-hero__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 180px;
+}
+
+.header-hero__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 189px;
+}
+
+.header-hero__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  margin-left: -15px;
+}
+
+.header-hero__title {
+  width: 496px;
+  margin-bottom: 60px;
+}
+
+.header-hero__about-us {
+  margin-right: 24px;
+}
+
+.header-hero__actions-btn-play-hover {
+  width: 84px;
+  height: 84px;
+}
+.header-hero__img {
+  width: 602px;
+  height: 551px;
+}
+.header-hero__stats {
+  margin-bottom: 80px;
+}
+.stats__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+.stats__value {
+  margin-right: 12px;
+}
+
+.header-hero__circle {
+  display: block;
+  margin: 0 66px;
+}

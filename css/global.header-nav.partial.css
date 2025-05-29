@@ -1,10 +1,16 @@
+.header-nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 9;
+}
 .header-nav__inner {
   display: flex;
   align-items: center;
   height: 52px;
   margin-top: 20px;
   font-family: inherit;
-  margin-bottom: 200px;
 }
 
 .header-nav__logo {

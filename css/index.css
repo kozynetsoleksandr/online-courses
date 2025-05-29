@@ -1,6 +1,7 @@
-@import "./components/buttons.css";
 @import "./reset.css";
+@import "./components/buttons.css";
 @import "./global.css";
 @import "./fonts.css";
 @import "./global.footer.partial.css";
 @import "./global.header-nav.partial.css";
+@import "./partials/index.header-hero.partial.css";

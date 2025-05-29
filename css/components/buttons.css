@@ -1,4 +1,4 @@
-.btn-lg {
+.btn-large {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -16,5 +16,27 @@
 }
 
 .btn-lg:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-outline-large {
+  width: 179px;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  outline: 1px solid var(--text-color-gradient);
+  outline-offset: -1px;
+  background: transparent;
+  color: var(--text-color-gradient);
+}
+
+.btn-outline-lg:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }

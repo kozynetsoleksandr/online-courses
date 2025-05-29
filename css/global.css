@@ -9,7 +9,10 @@
   font-weight: 400;
 
   --gray-800: #424551;
+  --gray-900: rgba(30, 33, 44, 1);
   --white-color: white;
+  --text-color-gradient: #f75e05;
+  --btn-gradient: linear-gradient(90deg, #ff3f3a 0%, #f75e05 100%);
 }
 
 .container {
@@ -18,12 +21,46 @@
   margin: auto;
 }
 
+.font-small-bold {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.font-base-regular {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0;
+}
+
 .font-base-bold {
   font-weight: bold;
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0;
 }
+
+.font-display-2 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
 .header-nav__menu-items {
   color: var(--gray-800);
+}
+
+img {
+  width: 100%;
+  display: block;
 }
