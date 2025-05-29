@@ -1,0 +1,34 @@
+.courses {
+  margin-bottom: 180px;
+}
+.courses__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.courses__link {
+  align-self: flex-end;
+}
+
+.courses__list {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.course-card {
+  display: flex;
+}
+.course-card__content {
+  padding: 32px;
+}
+
+.course-card__image {
+  width: 214px;
+  height: 214px;
+}
+
+.course-card__price {
+  color: var(--text-color-danger);
+}

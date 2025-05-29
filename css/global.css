@@ -10,8 +10,14 @@
 
   --gray-800: #424551;
   --gray-900: rgba(30, 33, 44, 1);
+  --gray-700: rgba(120, 122, 128, 1);
   --white-color: white;
   --text-color-gradient: #f75e05;
+  --text-color-danger: rgba(255, 66, 66, 1);
+  --badge-success: rgba(3, 206, 164, 1);
+  --badge-warning: rgba(248, 152, 40, 1);
+  --badge-info: rgba(90, 135, 252, 1);
+  --badge-danger: rgba(245, 47, 110, 1);
   --btn-gradient: linear-gradient(90deg, #ff3f3a 0%, #f75e05 100%);
 }
 
@@ -42,6 +48,13 @@
   letter-spacing: 0;
 }
 
+.font-large-regular {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
 .font-display-2 {
   font-weight: 900;
   font-size: 64px;
@@ -61,6 +74,13 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 1px;
+}
+
+.lead-bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0;
 }
 
 .header-nav__menu-items {

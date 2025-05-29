@@ -15,7 +15,7 @@
   color: var(--white-color);
 }
 
-.btn-lg:hover {
+.btn-large:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -37,7 +37,7 @@
   color: var(--text-color-gradient);
 }
 
-.btn-outline-lg:hover {
+.btn-outline-large:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -58,6 +58,35 @@
   height: 44px;
   background: linear-gradient(90deg, #ff3f3a 0%, #f75e05 100%);
   color: var(--white-color);
+}
+
+.badge-btn {
+  padding: 1px 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--white-color);
+}
+
+.badge-success {
+  background: var(--badge-success);
+}
+.badge-warning {
+  background: var(--badge-warning);
+}
+.badge-info {
+  background: var(--badge-info);
+}
+.badge-danger {
+  background: var(--badge-danger);
 }
 
 .btn-solid-regular:hover {
