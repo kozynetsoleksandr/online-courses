@@ -21,6 +21,10 @@
   display: flex;
 }
 .course-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px 0;
   padding: 32px;
 }
 
