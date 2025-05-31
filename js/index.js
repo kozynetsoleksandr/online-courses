@@ -1,5 +1,6 @@
 function init() {
   import("./home-page/index.benefits.partial.js");
+  import("./home-page/index.team.partial.js");
 }
 
 const totalPartials = document.querySelectorAll(

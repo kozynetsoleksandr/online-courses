@@ -13,8 +13,10 @@
   --gray-700: rgba(120, 122, 128, 1);
   --gray-600: rgba(154, 156, 165, 1);
   --gray-300: rgba(229, 232, 237, 1);
+  --gray-200: rgba(244, 245, 246, 1);
   --white-color: white;
   --primary-color: rgba(255, 63, 58, 1);
+  --secondary-color: rgba(255, 207, 45, 1);
   --text-color-gradient: #f75e05;
   --text-color-danger: rgba(255, 66, 66, 1);
   --badge-success: rgba(3, 206, 164, 1);

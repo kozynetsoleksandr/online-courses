@@ -1,0 +1,125 @@
+.team {
+  background-color: var(--gray-200);
+  padding-top: 166px;
+}
+
+.team__inner {
+  padding-bottom: 180px;
+}
+
+.team__inner-header {
+  display: flex;
+  justify-content: space-between;
+}
+.team__subtitle {
+  margin-bottom: 8px;
+}
+.team__navigation {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 40px 0;
+}
+.team__nav-btn {
+  padding: 12px;
+}
+
+.team__nav-btn:hover {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.team__nav-btn svg path {
+  fill: var(--gray-800);
+}
+
+.team__nav-btn:hover svg path {
+  fill: var(--white-color);
+}
+
+.team__nav-btn:disabled svg path {
+  fill: var(--gray-200);
+}
+.team__nav-btn:disabled:hover {
+  background-color: transparent;
+}
+
+.team-card {
+  width: 285px;
+  height: 416px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.team-card__photo-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.team-card__photo-wrapper:hover::after {
+  opacity: 1;
+}
+
+.team-card__photo-wrapper {
+  margin-bottom: 16px;
+  background-color: var(--secondary-color);
+  position: relative;
+  padding: 20px 20px 0 20px;
+}
+
+.team-card__photo {
+  width: 245px;
+  height: 320px;
+}
+
+.team-card__socials {
+  display: flex;
+  align-items: center;
+  gap: 0 12px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+}
+
+.team-card__social-icon {
+  width: 20px;
+  height: 20px;
+  z-index: 9;
+}
+
+.team-card__social-icon svg path {
+  fill: var(--white-color);
+  opacity: 60%;
+  transition: opacity 0.3s ease, fill 0.3s ease;
+}
+
+.team-card__social-icon:hover svg path {
+  fill: var(--white-color);
+  opacity: 100%;
+}
+
+.team-card__name {
+  margin-bottom: 4px;
+}
+
+.team__slider-wrapper {
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  justify-content: space-between;
+}
