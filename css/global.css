@@ -32,6 +32,13 @@
   margin: auto;
 }
 
+.font-small-regular {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
 .font-small-bold {
   font-weight: bold;
   font-size: 14px;
@@ -97,6 +104,12 @@
 
 .lead-bold {
   font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+.lead-regular {
+  font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0;

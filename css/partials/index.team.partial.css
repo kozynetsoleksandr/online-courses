@@ -19,30 +19,6 @@
   align-items: center;
   margin: 50px 0 40px 0;
 }
-.team__nav-btn {
-  padding: 12px;
-}
-
-.team__nav-btn:hover {
-  border-radius: 50%;
-  background-color: var(--primary-color);
-  cursor: pointer;
-}
-
-.team__nav-btn svg path {
-  fill: var(--gray-800);
-}
-
-.team__nav-btn:hover svg path {
-  fill: var(--white-color);
-}
-
-.team__nav-btn:disabled svg path {
-  fill: var(--gray-200);
-}
-.team__nav-btn:disabled:hover {
-  background-color: transparent;
-}
 
 .team-card {
   width: 285px;

@@ -103,3 +103,28 @@
 .btn-solid-regular:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.nav-btn {
+  padding: 12px;
+}
+
+.nav-btn:hover {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.nav-btn svg path {
+  fill: var(--gray-800);
+}
+
+.nav-btn:hover svg path {
+  fill: var(--white-color);
+}
+
+.nav-btn:disabled svg path {
+  fill: var(--gray-200);
+}
+.nav-btn:disabled:hover {
+  background-color: transparent;
+}
