@@ -95,7 +95,7 @@
   overflow: hidden;
 }
 
-.slider-track {
+.team__slider-track {
   display: flex;
   justify-content: space-between;
 }
