@@ -74,6 +74,13 @@
   letter-spacing: 1px;
 }
 
+.font-extrasmall-regular {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
 .h1 {
   font-weight: 900;
   font-size: 46px;

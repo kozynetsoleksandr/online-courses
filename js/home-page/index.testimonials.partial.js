@@ -8,5 +8,3 @@ const mySlider = new Slider({
   slidesToShow: 1,
   slidesToScroll: 1,
 });
-
-console.log(mySlider.track.children);

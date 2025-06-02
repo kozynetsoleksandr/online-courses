@@ -1,0 +1,148 @@
+.footer {
+  padding-top: 80px;
+  background-color: var(--gray-900);
+}
+
+.footer__top {
+  display: flex;
+  gap: 0 80px;
+  padding-bottom: 60px;
+}
+
+.footer__top-social {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.footer__top-social svg {
+  margin-bottom: 24px;
+}
+
+.footer__top-social-text {
+  color: white;
+  opacity: 60%;
+  margin-bottom: 32px;
+}
+
+.footer__top-social-links {
+  display: flex;
+  gap: 0 20px;
+  text-wrap: nowrap;
+}
+
+.footer__top-site-map {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.footer__top-site-map-title {
+  text-wrap: nowrap;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.footer__top-site-map-link {
+  color: white;
+  opacity: 60%;
+}
+
+.footer__top-courses {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.footer__top-courses-title {
+  color: white;
+  margin-bottom: 4px;
+}
+
+.footer__top-courses-link {
+  color: white;
+  opacity: 60%;
+  text-wrap: nowrap;
+}
+
+.footer__top-contact-us {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.footer__top-contact-us-title {
+  margin-bottom: 4px;
+  color: white;
+}
+
+.footer__top-contact-us-phone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer__top-contact-us-mail {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer__top-contact-us-phone-text,
+.footer__top-contact-us-mail-text {
+  color: white;
+  opacity: 60%;
+}
+
+.footer__top-action {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.footer__top-action-title {
+  margin-bottom: 16px;
+  color: white;
+  text-wrap: nowrap;
+}
+
+.footer__top-action-input-wrapper {
+  position: relative;
+}
+
+.footer__top-action-svg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.footer__top-action-input {
+  width: 286px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  padding: 9px 12px;
+  color: white;
+}
+
+.footer__top-action-text {
+  color: white;
+  opacity: 60%;
+}
+
+.footer__bottom-copyright {
+  padding: 2px 0;
+}
+
+.footer__bottom-wrapper {
+  background: #292c37;
+}
+
+.footer__bottom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 0;
+  color: white;
+}
