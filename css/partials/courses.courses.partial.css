@@ -1,0 +1,100 @@
+.courses__wrapper {
+  text-align: center;
+  padding-top: 152px;
+}
+
+.courses__text {
+  margin-bottom: 8px;
+}
+
+.courses__title {
+  margin-bottom: 60px;
+}
+
+.courses__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.courses__filters {
+  display: flex;
+  gap: 0 12px;
+}
+
+.courses__filter-btn {
+  padding: 10px 20px;
+  color: var(--gray-600);
+  display: inline-flex;
+}
+
+.courses__filter-count {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.courses__filter-btn:hover,
+.courses__filter-btn--active {
+  border-radius: 4px;
+  outline: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  outline-offset: -1px;
+}
+
+.courses__search-form {
+  position: relative;
+}
+
+.courses__search-input {
+  width: 315px;
+  height: 44px;
+  padding: 11px 48px 12px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--gray-400);
+}
+.courses__search-btn {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+}
+
+.courses__courses__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.courses__course-card {
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+    0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.courses__course-card__content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 24px;
+  gap: 20px 0;
+}
+
+.courses__course-card__name {
+  text-align: left;
+}
+
+.courses__course-card__price {
+  color: var(--danger-color);
+}
+
+.courses__course-card__author {
+  color: var(--gray-700);
+}
+
+.courses__more {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
