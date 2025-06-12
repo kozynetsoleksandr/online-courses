@@ -7,19 +7,19 @@
 }
 
 .course__header-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px 0;
-    padding: 192px 105px 120px 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px 0;
+  padding: 192px 105px 120px 105px;
 }
 
 .course__header-hero-title {
-    color: var(--primary-color);
-    text-transform: uppercase;
+  color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .course__header-hero-text {
-    color: var(--gray-900);
-    text-align: center;
+  color: var(--gray-900);
+  text-align: center;
 }
