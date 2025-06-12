@@ -1,0 +1,55 @@
+.course-curator {
+  padding: 66px 0 180px 0;
+}
+.course-curator-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 135px;
+}
+
+.course-curator-img-wrapper img {
+  width: 495px;
+  height: 600px;
+}
+
+.course-curator-content {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.course-curator-rate {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px 0;
+}
+
+.course-curator-rate-item {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+}
+
+.course-curator-title {
+  margin-bottom: 8px;
+}
+
+.course-curator-name {
+  margin-bottom: 16px;
+}
+
+.course-curator-role,
+.course-curator-rate {
+  margin-bottom: 32px;
+}
+
+.course-curator-text {
+  margin-bottom: 40px;
+}
+
+.course-curator-links {
+  display: flex;
+  align-items: center;
+  gap: 0 24px;
+  width: 168px;
+}
