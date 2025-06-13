@@ -1,0 +1,39 @@
+.course-register {
+  background-color: var(--gray-200);
+  padding-bottom: 114px;
+}
+
+.course-register__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 185px;
+}
+
+.course-register__promo {
+  margin-bottom: 8px;
+}
+
+.course-register__title {
+  margin-bottom: 40px;
+}
+
+.course-register__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}
+
+.course-register__form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.course-register__input {
+  height: 52px;
+  padding: 13px 16px;
+}
+
+.course-register__btn {
+  width: 100%;
+}
