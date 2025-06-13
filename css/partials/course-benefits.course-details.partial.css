@@ -1,0 +1,24 @@
+.course-benefits__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 135px;
+}
+.course-benefits__text {
+  width: 495px;
+}
+.course-benefits__list {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  width: 600px;
+}
+.course-benefits__item {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.course-benefits__icon {
+  margin-top: 5px;
+}
