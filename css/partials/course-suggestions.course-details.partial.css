@@ -1,0 +1,35 @@
+.course-suggestions {
+  padding: 180px 0;
+}
+.course-suggestions__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-suggestions__slider-container {
+  overflow: hidden;
+}
+
+.course-suggestions__slider-track {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-suggestions__slide {
+  height: 216px;
+  padding: 0 15px 0 15px;
+}
+
+.course-suggestions__slider-container {
+  margin-bottom: 80px;
+}
+
+.course-suggestions__action {
+  display: flex;
+  justify-content: center;
+  gap: 0 40px;
+}
+
+.course-suggestions__action-title {
+  color: var(--gray-900);
+}
