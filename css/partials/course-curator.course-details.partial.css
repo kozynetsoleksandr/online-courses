@@ -53,3 +53,10 @@
   gap: 0 24px;
   width: 168px;
 }
+.course-curator-links svg path {
+  fill: var(--gray-600);
+}
+
+.course-curator-links a:hover svg path {
+  fill: var(--primary-color);
+}
