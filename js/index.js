@@ -4,6 +4,7 @@ function init() {
   import("./home-page/index.testimonials.partial.js");
   import("./courses/course-program.course-details.partial.js")
   import("./courses/course-suggestions.course-details.partial.js")
+  import("./events/events.view.partial.js");
 }
 
 const totalPartials = document.querySelectorAll(
