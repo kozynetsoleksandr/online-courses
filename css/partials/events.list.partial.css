@@ -160,3 +160,7 @@
 .paginations__link:hover svg path {
   color: var(--primary-color);
 }
+
+.paginations__link:hover svg path {
+  fill: var(--primary-color);
+}
