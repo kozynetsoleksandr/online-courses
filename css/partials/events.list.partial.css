@@ -57,7 +57,7 @@
   height: 44px;
   border: 1px solid var(--gray-400);
   background-color: transparent;
-  background-image: url("/img/events/search.svg");
+  background-image: url("img/events/search.svg");
   background-position: 250px 14px;
   padding: 10px 40px 10px 16px;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@
   height: 42px;
   background-color: white;
   padding-left: 16px;
-  background-image: url("/img/events/arrow-drop-down.svg");
+  background-image: url("img/events/arrow-drop-down.svg");
   background-size: 40px;
   background-repeat: no-repeat;
   background-position: 120px;
