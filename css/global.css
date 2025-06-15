@@ -28,6 +28,11 @@
   --btn-gradient: linear-gradient(90deg, #ff3f3a 0%, #f75e05 100%);
 }
 
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 .container {
   max-width: 1260px;
   padding: 0 15px;
