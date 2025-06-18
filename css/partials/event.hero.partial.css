@@ -1,0 +1,21 @@
+.event-hero {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 63, 58, 0.2) 0%,
+    rgba(247, 94, 5, 0.2) 100%
+  );
+}
+
+.event-hero__inner {
+  padding: 192px 105px 120px 105px;
+  text-align: center;
+}
+
+.event-hero__subtitle {
+  margin-bottom: 12px;
+  color: var(--primary-color);
+}
+
+.event-hero__title {
+  color: var(--gray-900);
+}

@@ -26,3 +26,5 @@
 @import "./partials/course-register.course-details.partial.css";
 @import "./partials/course-suggestions.course-details.partial.css";
 @import "./partials/events.view.partial.css";
+@import "./partials/event.hero.partial.css";
+@import "./partials/event.for-whom.partial.css";

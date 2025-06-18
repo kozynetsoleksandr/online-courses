@@ -1,0 +1,35 @@
+.event-for-whom__inner {
+  display: flex;
+  padding-block: 180px;
+  column-gap: 135px;
+}
+
+.event-for-whom__left {
+  width: 492px;
+}
+
+.event-for-whom__left-subtitle {
+  margin-bottom: 8px;
+}
+
+.event-for-whom__right {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 600px;
+  height: 190px;
+}
+
+.event-for-whom__right-item {
+  display: inline-flex;
+  align-items: flex-start;
+  column-gap: 16px;
+  text-align: left;
+  color: var(--gray-800);
+}
+
+.event-for-whom__right-item-svg {
+  flex-shrink: 0;
+  margin-block: 5px;
+}
