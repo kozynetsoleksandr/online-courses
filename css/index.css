@@ -28,3 +28,5 @@
 @import "./partials/events.view.partial.css";
 @import "./partials/event.hero.partial.css";
 @import "./partials/event.for-whom.partial.css";
+@import "./partials/event.talk-about.partial.css";
+@import "./partials/event.speaker.partial.css";

@@ -1,0 +1,117 @@
+.talk-about {
+  padding-block: 120px;
+}
+
+.talk-about__inner {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 134px;
+}
+
+.talk-about__left {
+  max-width: 600px;
+}
+.talk-about__right {
+  border: 1px solid var(--gray-300);
+}
+
+.talk-about__title {
+  color: var(--gray-900);
+  margin-bottom: 40px;
+}
+
+.talk-about__item-lesson {
+  color: var(--primary-color);
+}
+
+.talk-about__item-text {
+  color: var(--gray-900);
+}
+
+.talk-about__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}
+
+.talk-about__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.talk-about__item-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.talk-about__item-lesson {
+  margin-left: 20px;
+  color: var(--primary-color);
+}
+.talk-about__item-text {
+  margin-left: 8px;
+}
+
+.talk-about__item-content {
+  margin: 16px 0 0 40px;
+}
+.talk-about__item-icon--minus {
+  display: none;
+}
+
+.talk-about__right {
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 32px;
+  padding: 40px 32px;
+  max-width: 495px;
+}
+
+.talk-about__label {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: var(--gray-900);
+}
+
+.talk-about__highlight {
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+.talk-about__text {
+  color: var(--gray-700);
+}
+
+.talk-about__label {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: var(--gray-900);
+}
+
+.talk-about__highlight {
+  color: var(--primary-color);
+}
+
+.talk-about__link {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.talk-about__button {
+  width: 100%;
+}

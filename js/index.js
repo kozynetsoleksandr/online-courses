@@ -5,6 +5,7 @@ function init() {
   import("./courses/course-program.course-details.partial.js")
   import("./courses/course-suggestions.course-details.partial.js")
   import("./events/events.view.partial.js");
+  import("./event/event.talk-about.partial.js");
 }
 
 const totalPartials = document.querySelectorAll(
