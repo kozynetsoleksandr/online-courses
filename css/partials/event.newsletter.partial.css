@@ -1,0 +1,105 @@
+.event-newsletter {
+  padding-bottom: 120px;
+}
+.event-newsletter__container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 63, 58, 0.2) 0%,
+    rgba(247, 94, 5, 0.2) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 105px;
+}
+
+.event-newsletter__content {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.event-newsletter__title {
+  margin-bottom: 48px;
+}
+
+.event-newsletter__action {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.event-newsletter__input {
+  padding: 13px 16px;
+  width: 100%;
+  border-radius: 4px;
+  color: var(--gray-400);
+  border: none;
+}
+
+.event-newsletter__input:not(:placeholder-shown) {
+  color: var(--gray-900);
+  border: none;
+}
+
+.event-newsletter__button {
+  min-width: 154px;
+  height: 52px;
+}
+
+.event-newsletter__consent {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.event-newsletter__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.event-newsletter__checkbox-input {
+  display: none;
+}
+.event-newsletter__checkbox-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 2px solid var(--gray-900);
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Галочка */
+.event-newsletter__checkbox-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 3.5px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Коли вибраний */
+.event-newsletter__checkbox-input:checked + .event-newsletter__checkbox-box {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.event-newsletter__checkbox-input:checked
+  + .event-newsletter__checkbox-box::after {
+  opacity: 1;
+}
+
+.event-newsletter__checkbox-text {
+  color: var(--gray-800);
+}
